@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import "package:firebase_core/firebase_core.dart";
 import "package:provider/provider.dart";
+import "fake_data_generator.dart";
 import "features/let_run/screens/run_screen.dart";
 import "features/onboarding/screens/get_started_screen.dart";
 import "features/auth/screens/login_screen.dart";
@@ -11,6 +12,9 @@ import "common/providers/user_provider.dart";
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+
+  final generator = FakeDataGenerator();
+  await generator.generateFakeData();
   runApp(const MyApp());
 }
 
