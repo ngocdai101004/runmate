@@ -1,11 +1,46 @@
-<!--Project logo-->
-<br />
-<div align="center">
-  <a>
-    <img src="assets/images/logo.jpg" alt="Logo" width = 300>
+
+
+<!--Project logo and contributors-->
+<div align="center" style="font-family: Arial, sans-serif;">
+  <!-- Logo -->
+  <a href="#">
+    <img  src="assets/images/logo.jpg" alt="Logo" width="200" style="margin-bottom: 20px;">
   </a>
-  <p align="center">HCMUS</p>
-  <p align="center" style="text-transform: uppercase;">CSC13009 - Mobile Software Development</p>
+  
+  <!-- Title -->
+  <h1 style="font-size: 2.5rem; font-weight: bold; color: #333; margin: 0;">RUNMATE</h1>
+  
+  <!-- Subtitle -->
+  <p style="font-size: 1.25rem; color: #555; margin: 5px 0;">FIT - HCMUS</p>
+  <p style="font-size: 1rem; color: #777; text-transform: uppercase; margin: 0;">Mobile Development</p>
+  
+</div>
+
+<!-- Contributors -->
+<div style="margin-top: 20px; font-family: Arial, sans-serif;">
+  <h2 style="font-size: 1.4rem; color: #333; font-weight: bold; margin-bottom: 10px;">Contributors</h2>
+  <ul style="list-style: none; padding: 0; margin: 0;">
+    <li style="margin: 8px 0;">
+      <a href="https://github.com/ngocdai101004" target="_blank" style="text-decoration: none; color: #007bff; font-size: 1rem; font-weight: 500;">
+        Tran Ngoc Dai
+      </a>
+    </li>
+    <li style="margin: 8px 0;">
+      <a href="https://github.com/fusodoya" target="_blank" style="text-decoration: none; color: #007bff; font-size: 1rem; font-weight: 500;">
+        Song Dong Gia Phuc
+      </a>
+    </li>
+    <li style="margin: 8px 0;">
+      <a href="https://github.com/tuongkhtn" target="_blank" style="text-decoration: none; color: #007bff; font-size: 1rem; font-weight: 500;">
+        Huynh Thanh Tuong
+      </a>
+    </li>
+    <li style="margin: 8px 0;">
+      <a href="https://github.com/tuann04" target="_blank" style="text-decoration: none; color: #007bff; font-size: 1rem; font-weight: 500;">
+        Vo Anh Tuan
+      </a>
+    </li>
+  </ul>
 </div>
 
 <!--Table of contents-->
